@@ -1,0 +1,67 @@
+*.class
+*.log
+
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+out/
+node_modules/
+bower_components/
+elm-stuff/
+dist/
+
+# Scala-IDE specific
+.scala_dependencies
+.idea_modules
+
+#SASS cache
+.sass-cache
+
+# use glob syntax.
+syntax: glob
+*.ser
+*.class
+*~
+*.bak
+*.off
+*.old
+.DS_Store
+.cache
+.tmp
+
+# Eclipse configuration files
+.settings
+.classpath
+.project
+.manager
+.externalToolBuilders
+
+# ensime/emacs conf files
+.ensime
+.scala_dependencies
+
+# building
+target
+null
+tmp*
+test-output
+
+# other scm
+.svn
+.CVS
+.hg*
+
+
+# IntelliJ IDEA
+*.eml
+*.iml
+*.ipr
+*.iws
+.idea
+.gradle
+
+# Pax Runner (for easy OSGi launching)
+runner
+
